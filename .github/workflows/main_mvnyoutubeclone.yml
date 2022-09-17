@@ -11,7 +11,7 @@ on:
 
 env:
   ## Sets environment variable
-  process.env.CI: false  
+  CI: "false"
   
 jobs:
   build:
